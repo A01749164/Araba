@@ -1,0 +1,68 @@
+.solicitud {
+    height: 75px;
+    margin-left: 20px;
+    display: flex;
+}
+
+.solicitud-nombre {
+    flex-basis: 280px;
+    margin-left: 20px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+
+    color: #303972;
+}
+
+.solicitud-correo{
+    flex-basis: 280px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+
+    color: #303972;
+}
+
+.solicitud-fecha {
+    flex-basis: 200px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+
+    color: #FB7D5B;
+}
+
+.solicitud-boton{
+    margin-left: 40px;
+    margin-top: 6px;
+
+    background: #E3E3E3;
+    border-radius: 11px;
+
+    width: 50px;
+    height: 20px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+
+    color: #8E8E8E;
+}
+
+.dot {
+    height: 30px;
+    width: 30px;
+    background-color: #C1BBEB;
+    border-radius: 50%;
+    display: inline-block;
+  }

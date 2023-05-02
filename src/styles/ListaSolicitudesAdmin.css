@@ -1,0 +1,39 @@
+.lista-solicitudes{
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.lista-solicitudes-titulo {
+    margin-bottom: 25px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #303972;
+}
+
+/* Paginacion */
+
+.lista-solicitudes-paginacion{
+    display: flex;
+    gap: 600px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.lista-solicitudes-paginacion-texto{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+
+    color: #A098AE;
+}
+
+.lista-solicitudes-paginacion-paginas{
+    display: flex;
+    gap: 16px;
+}

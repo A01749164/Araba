@@ -1,0 +1,56 @@
+.bubble{
+    position: relative;
+    right: -75px;
+    background: linear-gradient(180deg, #577ca8, #3c5675);
+    color: #fff;
+    border-radius: 10px;
+    min-width: 50%;
+    max-width: 70%;
+    min-height: 30px;
+    padding: 10px;
+    margin: 3px;
+    overflow-wrap: break-word;
+    transform-style: preserve-3d;
+}
+
+.punta{
+    content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+    left: auto;
+	right: 0px;
+	bottom: -10px;
+	border: 12px solid;
+	border-color: transparent #3c5675 transparent transparent;
+    transform: translateZ(-1px);
+}
+
+.bubbleOpp{
+    position: relative;
+    left: 10px;
+    background: linear-gradient(180deg, #cccccc, gray);
+    border-radius: 10px;
+    min-width: 50%;
+    max-width: 70%;
+    min-height: 30px;
+    padding: 10px;
+    margin: 3px;
+    overflow-wrap: break-word;
+    transform-style: preserve-3d;
+}
+
+.puntaOpp{
+    content: '';
+	position: absolute;
+    z-index: 0;
+	width: 0;
+	height: 0;
+	left: 0px;
+    right: auto;
+    top: auto;
+	bottom: -10px;
+	border: 12px solid;
+	border-color: transparent transparent transparent gray;
+    transform: translateZ(-1px);
+}

@@ -1,0 +1,16 @@
+.distribuidor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px; /* Espacio entre columnas */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .auto,
+  .detalles {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  

@@ -1,0 +1,9 @@
+.boton-blanco {
+    height: 48px;
+    width: 288px;
+    background: white;
+    border: 0.01px solid white;
+    color: black;
+    margin: 4px;
+  }
+  

@@ -1,0 +1,17 @@
+.boton-azul {
+  height: 48px;
+  width: fit-content;
+  min-width: 224px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  background: rgba(0, 120, 240, 0.1);
+  border: 1px solid #0078f0;
+  border-radius: 10px;
+  color: #0078f0;
+  margin: 4px;
+}
+
+.boton-azul:not(:disabled) {
+  cursor: pointer;
+}
